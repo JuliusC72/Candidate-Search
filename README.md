@@ -1,33 +1,54 @@
-# React + TypeScript + Vite
+# Candidate Search
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a web application that allows users to browse random GitHub profiles and save potential candidates for later review.
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Credits](#credits)
+- [Tests](#tests)
+- [Questions](#questions)
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Installation
 
-* Configure the top-level `parserOptions` property as follows:
+1. Clone the repository.
+2. Create a `.env` file in the root directory with your GitHub token:   ```   VITE_GITHUB_TOKEN=YOUR_GITHUB_TOKEN_HERE   ```
+3. Install dependencies:   ```   npm install   ```
+4. Start the development server:   ```   npm run dev   ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+
+## Usage
+
+1. **Search Page**: The main page displays a random GitHub user. You can:
+      - Click the "+" button to save the candidate and view the next one
+      - Click the "-" button to skip the current candidate
+      - View details including name, username, location, company, and GitHub profile link.
+        
+3. **Saved Candidates Page**: View all candidates you've saved. This list persists even if you close the browser.
+
+## License
+
+This project is licensed under the MIT License - see [MIT](https://opensource.org/licenses/MIT) for details.
+
+## Credits
+
+Julius Chi, CoPilot, Claude AI, referenced other students' repositories.
+
+## Tests
+
+```
+N/A
 ```
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+## Questions
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+For questions or concerns, please contact me:
+
+GitHub: [JuliusC72](https://github.com/JuliusC72)
+
+Email: [72jules@gmail.com](mailto:72jules@gmail.com)
