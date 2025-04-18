@@ -17,9 +17,9 @@ This is a web application that allows users to browse random GitHub profiles and
 ## Installation
 
 1. Clone the repository.
-2. Create a `.env` file in the root directory with your GitHub token:   ```   VITE_GITHUB_TOKEN=YOUR_GITHUB_TOKEN_HERE   ```
-3. Install dependencies:   ```   npm install   ```
-4. Start the development server:   ```   npm run dev   ```
+2. Create a `.env` file in the root directory with your GitHub token:   ```VITE_GITHUB_TOKEN=YOUR_GITHUB_TOKEN_HERE```
+3. Install dependencies:   ```npm install```
+4. Start the development server:   ```npm run dev```
 
 
 ## Usage
